@@ -1,0 +1,10 @@
+NAMA DATABASE = si_penjualan
+
+LOKASI DATABASE SQL = /database/
+- DATABASE KOSONG = si_penjualan_kosong.sql
+- DATABASE ISI CONTOH DATA = si_penjualan.sql
+
+User  : Kasir
+Password : 12345
+User  : Komisaris
+Password : 12345
