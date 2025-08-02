@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    overflow: hidden !important;
+}
+
+.login{
+    height: 100vh;
+}
+
+.bg-template-blue{
+   background-color: #408AB1 !important;
+}
+
+.bg-template-blue:hover{
+    background-color: #408AB1 !important;
+}
+
+.bg-template-blue-2{
+   background-color: #185a7e !important;
+}
+
+.bg-template-blue-2:hover{
+   background-color: #185a7e !important;
+}
+
+.bg-template-blue-3{
+   background-color: #3d83b3 !important;
+}
+
+.bg-template-blue-3:hover{
+   background-color: #3d83b3 !important;
+}
+
+.sidebar{
+    transition: 1s;
+}
+
+.sidebar-title{
+    height: 78px;
+} 
+
+.sidebar-content {
+    min-height: 100vh;
+}
+
+.sidebar-content a,
+.sidebar-content .nav-link-dropdown{
+    transition: .3s ease-in-out;
+}
+
+.sidebar-content a.nav-link.active{
+    background-color: #1B1E23;
+    border-left: 5px solid #408AB1;
+}
+
+.sidebar-content .nav-link-dropdown.active{
+    background-color: #1B1E23;
+    border-left: 5px solid #408AB1;
+}
+
+.sidebar-content a.nav-link.active:hover,
+.sidebar-content .nav-link-dropdown:hover{
+    background-color: #1B1E23;
+    border-left: 5px solid #408AB1;
+}
+
+.sidebar-content a.nav-link:hover,
+.sidebar-content .nav-link-dropdown:hover{
+    background-color: #1B1E23;
+    border-left: 20px solid #408AB1;
+}
+
+.nav-link-dropdown{
+    cursor: pointer;
+}
+
+.content{
+    height: calc(100vh - 78px);
+    overflow-y: scroll;
+    margin-bottom: 100px;
+}
+
+.account-dropdown {
+    width: 400px;
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    z-index: 999;
+}
+
+.account-dropdown figure{
+    width: 100px;
+    height: 100px;
+}
+
+.account-dropdown figure img{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.logout{
+    width: 100%;
+}
+
+.content .container-type-1{
+    border: 1px solid #BBB;
+    border-top: 5px solid #BBB;
+}
+
+.row-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.row-table table {
+width: 100%;
+min-width: 1220px; /* Adjust the min-width based on your table content */
+}
+
+.laporan{
+    font-family: 'Times New Roman', Times, serif;
+}
